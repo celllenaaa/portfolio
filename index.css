@@ -1,0 +1,173 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+#title {
+  background-color:rgb(255, 255, 255);
+}
+
+.container-fluid {
+  background-color: #D2B48C;
+  padding: 3% 15%
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color:black;
+}
+
+h2 {
+  color:black;
+  font-family: 'Montserrat';
+  font-size: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color:black;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Unbuntu';
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+
+
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+.title-image {
+  width: 60%;
+  position: absolute;
+}
+
+
+#Information {
+  padding: 7% 15%;
+  background-color:rgb(73, 58, 8);
+  z-index: 1;
+  position: relative;
+}
+
+.Information-box {
+  text-align:center;
+  padding: 5%;
+}
+
+
+.icon {
+  color:black;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: red;
+}
+
+
+
+#testimonials {
+  text-align: center;
+  background-color:rgb(255, 255, 255);
+}
+
+#About {
+  text-align: center;
+  background-color: #D2B48C;
+}
+
+.Gallery-image{
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#press {
+  background-color:rgb(255, 255, 255);
+  text-align: center;
+}
+
+.press-logo {
+  width: 10px;
+  margin: 20px 20px 50px;
+}
+
+
+
+#Payment {
+  padding:100px;
+  text-align:center;
+}
+
+.Payment-header {
+  color:black;
+}
+
+
+.Payment-column {
+  padding: 3% 2%
+}
+
+#Qualifications {
+  background-color:#fff;
+  color:rgb(0, 0, 0);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  background-color: #D2B48C;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position:static;
+    transform: rotate(0);
+  }
+}
